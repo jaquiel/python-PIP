@@ -73,10 +73,10 @@ Find more packages at https://pypi.org/. [Click here](https://pypi.org/)
 ## Remove a Package
 Use the *uninstall* command to remove a package:
 
-###Examples: 
+### Examples: 
 Uninstall the package named "camelcase"
 
-example 1
+##### example 1
 ```C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip uninstall camelcase```
 
 The PIP Package Manager will ask you to confirm that you want to remove the camelcase package:
@@ -89,7 +89,7 @@ Proceed (y/n)?```
 Press y and the package will be removed.
 ```
 
-example 2
+##### example 2
 ```pip uninstall camelcase```
 
 The PIP Package Manager will ask you to confirm that you want to remove the camelcase package:
@@ -122,3 +122,5 @@ setuptools      39.0.1
 ```
 
 
+## Fonte
+https://www.w3schools.com/python/python_pip.asp
