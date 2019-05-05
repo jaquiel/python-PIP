@@ -46,7 +46,8 @@ Installing collected packages: camelcase
   Running setup.py install for camelcase ... done
 Successfully installed camelcase-0.2
 You are using pip version 19.0.3, however version 19.1 is available.
-You should consider upgrading via the 'python -m pip install --upgrade pip' command.```
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+```
 
 ## Using a Package
 
@@ -76,27 +77,31 @@ Use the *uninstall* command to remove a package:
 Uninstall the package named "camelcase"
 
 example 1
-```C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip uninstall camelcase
+```C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip uninstall camelcase```
 
 The PIP Package Manager will ask you to confirm that you want to remove the camelcase package:
-```Uninstalling camelcase-02.1:
+```
+Uninstalling camelcase-02.1:
   Would remove:
     c:\users\Your Name\appdata\local\programs\python\python36-32\lib\site-packages\camecase-0.2-py3.6.egg-info
     c:\users\Your Name\appdata\local\programs\python\python36-32\lib\site-packages\camecase\*
 Proceed (y/n)?```
 Press y and the package will be removed.
+```
 
 example 2
 ```pip uninstall camelcase```
 
 The PIP Package Manager will ask you to confirm that you want to remove the camelcase package:
 
-```Uninstalling camelcase-0.2:
+```
+Uninstalling camelcase-0.2:
   Would remove:
     c:\users\jaquiel\appdata\local\programs\python\python37-32\lib\site-packages\camelcase-0.2-py3.7.egg-info
     c:\users\jaquiel\appdata\local\programs\python\python37-32\lib\site-packages\camelcase\*
 Proceed (y/n)? y
-  Successfully uninstalled camelcase-0.2```
+  Successfully uninstalled camelcase-0.2
+```
 
 ## List Packages
 
