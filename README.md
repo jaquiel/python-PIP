@@ -17,7 +17,7 @@ Check PIP version:
 ```C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip --version```
 
 ### Example:
-type:
+Type:
 ```pip --version```
 
 Returns:
@@ -35,16 +35,18 @@ Open the command line interface and tell PIP to download the package you want.
 Navigate your command line to the location of Python's script directory, and type the following:
 
 ### Examples:
+Type:
 ```C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip install camelcase```
 
+Result:
 ```pip install camelcase
 Collecting camelcase
   Downloading https://files.pythonhosted.org/packages/24/54/6bc20bf371c1c78193e2e4179097a7b779e56f420d0da41222a3b7d87890/camelcase-0.2.tar.gz
 Installing collected packages: camelcase
   Running setup.py install for camelcase ... done
 Successfully installed camelcase-0.2
-*You are using pip version 19.0.3, however version 19.1 is available.
-You should consider upgrading via the 'python -m pip install --upgrade pip' command.*```
+You are using pip version 19.0.3, however version 19.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.```
 
 ## Using a Package
 
@@ -55,13 +57,13 @@ Import the "camelcase" package into your project.
 ### Examples
 Import and use "camelcase":
 ```
-**import** camelcase
+import camelcase
 
 c = camelcase.CamelCase()
 
 txt = "hello world"
 
-**print**(c.hump(txt))
+print(c.hump(txt))
 ```
 
 ## Finding Packages
@@ -88,14 +90,13 @@ example 2
 ```pip uninstall camelcase```
 
 The PIP Package Manager will ask you to confirm that you want to remove the camelcase package:
-```
-Uninstalling camelcase-0.2:
+
+```Uninstalling camelcase-0.2:
   Would remove:
     c:\users\jaquiel\appdata\local\programs\python\python37-32\lib\site-packages\camelcase-0.2-py3.7.egg-info
     c:\users\jaquiel\appdata\local\programs\python\python37-32\lib\site-packages\camelcase\*
 Proceed (y/n)? y
-  Successfully uninstalled camelcase-0.2
-  ```
+  Successfully uninstalled camelcase-0.2```
 
 ## List Packages
 
@@ -103,12 +104,10 @@ Use the list command to *list* all the packages installed on your system:
 
 ### Example
 List installed packages:
-```
-pip list
-```
+```pip list```
+
 Result:
-```
-Package         Version
+```Package         Version
 -----------------------
 camelcase       0.2
 mysql-connector 2.1.6
