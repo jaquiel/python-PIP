@@ -16,14 +16,15 @@ Navigate your command line (Windows, Linux or MacOS) to the location of Python's
 Check PIP version:
 ```C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip --version```
 
-Example:
+### Example:
+type:
 ```pip --version```
 
 Returns:
 ```pip 19.0.3 from c:\users\jaquiel\appdata\local\programs\python\python37-32\lib\site-packages\pip (python 3.7)```
 
 ## Install PIP
-If you do not have PIP installed, you can download and install it from this page: https://pypi.org/project/pip/ . [Click here](https://pypi.org/project/pip/)
+If you do not have PIP installed, you can download and install it from this page: https://pypi.org/project/pip/ .
 
 ## Download a Package
 
@@ -54,13 +55,13 @@ Import the "camelcase" package into your project.
 ### Examples
 Import and use "camelcase":
 ```
-*import* camelcase
+**import** camelcase
 
 c = camelcase.CamelCase()
 
 txt = "hello world"
 
-*print*(c.hump(txt))
+**print**(c.hump(txt))
 ```
 
 ## Finding Packages
